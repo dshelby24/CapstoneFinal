@@ -1,170 +1,159 @@
+.attractionsInnerContainer{
 
-#parallax-world-of-ugg .parallax {padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width: 100%; background-image: url(https://images.unsplash.com/photo-1577949098263-a5fc867be37b?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjR8fGNpbmNpbm5hdGl8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=900&q=60); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: top center;}
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image: url('https://images.pexels.com/photos/2570704/pexels-photo-2570704.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+  background-color: rgb(71, 119, 221);
 
-#parallax-world-of-ugg .titles {background: white; padding: 60px; margin:0 auto; text-align:center;}
-
-  .attraction-h2{
-      text-align: center;
-  }
-  
-  
-  .attraction-h5{
-    text-align: center;
-    justify-content: center;
-}
-
-.button{
-    text-align: center;
-    background-color: #01000c;
-    display: inline-block;
-    border-radius: 10px;
-    border: 4px double #cccccc;
-    color: #eeeeee;
-    font-size: 9px;
-    padding: 20px;
-    width: 100px;
-    transition: all 0.5s;
-    align-content: center;
-    cursor: pointer;
-    margin-left: 629px;
+    
 }
 
 
-.img{
-width: 50%;
-border: solid black ;
-height: auto;
-margin-left: 25%;
-
+.attractionsCard{
+  margin: 40px;
+  position: relative;
+  max-width: 250px;
+  max-height: 350px;
+  box-shadow: 0 40px 60px -6px black;
+  align-content: center;
 }
 
 
 
-  .parrallax-content{
-    position: relative;
-    overflow: hidden;
-    height: 80vh;
-    -webkit-background-size: cover;
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center center;
-    background-image: url(./assets/assets/ccimage-shutterstock_1178960959.jpeg);
-  }
+.link-details{
+  text-align: center;
+}
+
+.attractionImage{
+width: 100%;
+height: 98%;
+object-fit: cover;
+display: block;
+position: relative;
+}
+
+
+
+.headerz{
+  color: rgb(10, 0, 0);
+  text-align: center;
+margin-top:30%;
+
+
+}
+
+.jumbotron-fluid{
+  background-image: url('./assets/Untitled\ design.jpg');
+  background-size: cover;
+  width:100%;
+ 
+}
+.display-4{
+  font-weight: 900;
+  font-family: 'Oswald', sans-serif;
+ top:-80px;
+  color: hsl(209, 51%, 59%);
+  border:#fff 3px solid;
+  background-color:white;
+  opacity: .9;
+  left:10px;
   
-  .parrallax {
+}
+
+
+.attraction-h2{
+  display: block;
+  text-align: center;
+  color: #fff;
+  background-color: #e7b308;
+  padding: 4.32%;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  font-size:15px ;
+  top:initial;
+  font-family:Verdana, Geneva, Tahoma, sans-serif ;
+  font-weight: bold;
+ 
+}
+
+.website{
+  color: #fff;
+	text-transform: uppercase;
+	text-decoration: none;
+	background: #e7b308;
+  display: inline-block;
+
+	padding: 5px;
+	border-radius: 5px;
+	border: none;
+	transition: all 0.4s ease 0s;
+  text-align: center;
+  width: 100%;
+}
+
+.text-link{
+  
+  color: #fff;
+	text-transform: uppercase;
+	text-decoration: none;
+	background: #1b1ee7;
+	padding: 5px;
+	border-radius: 5px;
+	border: none;
+  align-content: center;
+  transition: all 0.4s ease 0s;
+  text-align: center;
+  
+
+}
+.link-site{
+  color: #fff;
+  font-family: sans-serif;
+}
+
+.website:hover{
+  background: #ccf734;
+	letter-spacing: 1px;
+	-webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+	-moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+	box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
+	transition: all 0.4s ease 0s;
+}
+
+.link-details{
+  width: max-content;
+  display: inline-block;
+  color:white
+
+}
+
+.text-link:hover{
+  background: #cfcfcf;
+	letter-spacing: 1px;
+	-webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+	-moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+	box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
+	transition: all 0.4s ease 0s;
+}
+
+.attractionDescription{
+  
+    display: block;
+    font-size: 1.2rem;
     position: absolute;
+    height: 0;
     top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: -1;
-  }
-  
-  .parrallax:before {
-    content: "";
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
+    opacity: 0;
+    padding: 18px 8%;
+    background-color: white;
+    overflow-y: scroll;
+    transition: 0.8s ease;
+  } 
+
+
+  .attractionsCard:hover .attractionDescription{
+    opacity: 1;
     height: 100%;
-    z-index: -1;
-    background-position: center top;
-    background-repeat: no-repeat;
-    background-size: 120% auto;
-  }
-
-  .parrallax-content2{
-    position: relative;
-    overflow: hidden;
-    height: 80vh;
-    -webkit-background-size: cover;
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center center;
-    background-image: url(./assets/assets/untiont.jpg);
-  }
-
-  .parrallax-content3{
-    position: relative;
-    overflow: hidden;
-    height: 80vh;
-    -webkit-background-size: cover;
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center center;
-    background-image: url(./assets/assets/cool.jpg);
-  }
-
-  .parrallax-content4{
-    position: relative;
-    overflow: hidden;
-    height: 80vh;
-    -webkit-background-size: cover;
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center center;
-    background-image: url(https://images.unsplash.com/photo-1600008990362-6bfff3ef7da1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8NXwxMTA4MDkyfHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=900&q=60);
-  }
-
-  .parrallax1 {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: -1;
-  }
-  .parrallax3 {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: -1;
-  }
-  .parrallax5{
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: -1;
-  }
-
-  .parrallax-content5{
-    position: relative;
-    overflow: hidden;
-    height: 80vh;
-    -webkit-background-size: cover;
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center center;
-    background-image: url(./assets/assets/findlaym.jpg);
-  }
-  .parrallax-content6{
-    position: relative;
-    overflow: hidden;
-    height: 80vh;
-    -webkit-background-size: cover;
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center center;
-    background-image: url(./assets/assets/hughway.jpg);
-  }
-.card-body{
-    justify-content: center;
-}
-
-.attraction-p{
-    text-align: center;
-}
-
-.parrallax4{
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: -1;
   }

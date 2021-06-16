@@ -100,8 +100,8 @@ import {BACKEND_URL} from './config';
       <div className="body3">
       <form id='contact-form' onSubmit={this.onSubmit}>
       <div className="titlecontact">
-          <h3 className='text-center'>Let's Chat!</h3>
-          <h4>Leave us a message below</h4>
+          {/* <h3 className='text-center'>Let's Chat!</h3>
+          <h4>Leave us a message below</h4> */}
 
 </div>
           <div className="containerContact">

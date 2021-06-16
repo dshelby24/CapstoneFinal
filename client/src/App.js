@@ -31,7 +31,7 @@ class App extends Component {
       <div className="maincontainer">
         <Burger/>
 
-        <Route exact path='/' component={Home} />
+        <Route exact path='/home' component={Home} />
         <Route exact path='/about' component={About} />
         <Route exact path='/Contact' component ={Contact}/>
         <Route exact path='/attractions' component ={Attractions}/>        

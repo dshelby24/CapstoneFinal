@@ -8,14 +8,15 @@ const Attraction = (props) => {
     return (
         <div className='allAttractions'>
             <div className='attractionsCard'>
-                <div className='cardImage'>
+                <div className='cardImage'> 
+                <div className='attraction-h2'>{props.attraction.name}</div>
                     <img className='attractionImage' src={props.attraction.imageURL} alt='attraction' />
                 </div>
                 <div>
-                    <div className='attractionTitle'>{props.attraction.name}</div>
+                   
                     <div className='attractionDescription'>{props.attraction.description}</div>
-                    <a className='attractionWeb' href={props.attraction.website} target="_blank" rel="noreferrer">Visit</a>
-                </div>SZ
+                    <a className='website' href={props.attraction.website} target="_blank" rel="noreferrer">Visit</a>
+                </div>
             </div>
         </div>
     )
@@ -53,17 +54,25 @@ export default class Attractions extends Component {
     render() {
         return (
             this.state.loading === false ? (
-                <div className='row'>
+                <div className='attractionsr'>
+           
                 <div className='attractionsContainer'>
-                    <h2 className='attractionsHeader'>Attractions</h2>
+                         
+  
                     <div className='attractionsInnerContainer'>
+  
+   <div className='jumbotron-fluid'>
+                          <div className='headerz'>                   
+  
+                        <h1 className='display-4'>Atrractions Around The Queen City</h1>  </div>
+                        </div>
                         {this.attractionsList()}
                     </div>
                 </div>
                 </div>
             ) : (
                 <div>
-                    <h1 className="loading-spinner">Loading.....</h1>
+                    <h1 className="loading-spinner">Loading...</h1>
                 </div>
             )
         )
