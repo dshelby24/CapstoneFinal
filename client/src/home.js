@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 // import React from 'React';
 import './home.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -9,7 +9,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 // images below
 import NewPort from './assets/NewPort.jpg'
 // images above
-const API_key = '61a77c269cf172ee908507307a3ccb9f';
+// const API_key = '61a77c269cf172ee908507307a3ccb9f';
 class Home extends React.Component{
   // constructor(){
   //   super();
@@ -89,9 +89,7 @@ class Home extends React.Component{
   render(){
     return(
     <div id="body" className="text-center">
-      <section className="container-fluid position-relative" id="section">
-        <h1 className="position-absolute top-50 start-50 translate-middle bg-light p-3" id="title">Welcome <br/>TO CINCY TRAVELS</h1>
-      </section>
+      
       {/* <section>
         <Weather city={this.state.city} country={this.state.country} temp_celsius={this.state.temp_celsius} Fahrenheit={this.state.Fahrenheit} temp_min={this.state.temp_min} temp_max={this.state.temp_max} description={this.state.description} weatherIcon={this.state.icon} />      
       </section> */}
@@ -101,7 +99,7 @@ class Home extends React.Component{
         <div className="card rounded-0 shadow-lg">
           <div className="card-body">
             <img src={NewPort} className="card-img border border-light rounded" />
-            <p className="mt-4 p-3 card-text" id="para">NewPort Aquarium</p>
+            <p className="mt-4 p-3 card-text" id="para" alt="" >NewPort Aquarium</p>
           </div>
         </div>
       </div>
@@ -111,7 +109,7 @@ class Home extends React.Component{
         <div className="card rounded-0 shadow-lg">
           <div className="card-body">
             <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTIfYH7e1-w6cahCMvPqgdBiec9sJMUBfd_0gby_-HhTVTTYsFW_SdB4k3wZllXrgUlGZwr6MzO7sKRsskeTnrbEQ" className="card-img border border-light rounded" />
-            <p className="mt-4 p-3 card-text" id="para">Cincinnati Zoo & Botanical Garden</p>
+            <p className="mt-4 p-3 card-text" id="para"  alt="">Cincinnati Zoo & Botanical Garden</p>
           </div>
         </div>
       </div>
@@ -121,7 +119,7 @@ class Home extends React.Component{
         <div className="card rounded-0 shadow-lg">
           <div className="card-body">
             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTKicqdGIHMk7fz3Y66TZwmhcKoBopxm0sogR9oqvwFVhJ4uA_e_EzBYQCudUCO1l-IJhqAEm_heP1FT-iNslvVg" className="card-img border border-light rounded" />
-            <p className="mt-4 p-3 card-text" id="para">Cincinnati Art Museum </p>
+            <p className="mt-4 p-3 card-text" id="para"  alt="">Cincinnati Art Museum </p>
           </div>
         </div>
       </div>
@@ -131,7 +129,7 @@ class Home extends React.Component{
         <div className="card rounded-0">
           <div className="card-body">
             <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcS3AaPhTZ3pKz0Pys10h09j1cdr0EkIFTYdyGxVO3THMYZhqD0AtGPv7iG8BUw96qqCtsEtnCvdpoLp-9BSivkXGw" className="card-img border border-light rounded" />
-            <p className="mt-4 p-3 card-text" id="para">Cincinnati Museum</p>
+            <p className="mt-4 p-3 card-text" id="para"  alt="">Cincinnati Museum</p>
           </div>
         </div>
       </div>
