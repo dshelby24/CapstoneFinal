@@ -1,8 +1,5 @@
-
 import React, { Component } from 'react';
 import './about.css';
-
-
 // import {appendScript} from './random'
 export default class About extends Component {
     render() {
@@ -10,32 +7,23 @@ export default class About extends Component {
             <div>
                      <div>
             <div id="parallax-world-of-ugg">
-  
   <section className="title" id="about-header">
     <div className="title">
       <h1>Sing the Queen City</h1>
     </div>
   </section>
-  
   <section>
       <div className="parallax-one">
         <h2>Welcome Home</h2>
         <h2>Love, Cincy</h2>
       </div>
   </section>
-  
-
-
-
   <section>
     <div className="block">
       <p className="header1">A Gem of the Midwest</p>
       <p className="text1">Cincinnati has so much to offer. We can't stop talking about her.</p>
-
-      
     </div>
   </section>
-  
   <section>
     <div className="parallax-two">
       <h2>Explore the Seven Hills</h2>
@@ -45,10 +33,8 @@ export default class About extends Component {
       <p className="header2">Wanderlust Welcome Here</p>
       <p className="">Explore fifty two neighborhoods in our expansive city limits. There is so much to see and experience. Each neighborhood is unique and special with its attractions, businesses, and histories; go on and find your new home away from home. </p>
   <section>
-    
   </section>
   </div>
-
   <section>
     <div className="parallax-three">
       <h2>On the Banks</h2>
@@ -58,11 +44,8 @@ export default class About extends Component {
     <p className="header3">Down to the River to Play</p>
     <p>Cincinnati has beautiful riverfront parks, walkable paths, fun businesses and attractions, and amazing views on the banks of the Ohio River. Enjoy the cool breezes, open air, and some of the best sights Cincinnati has to offer.</p>
   <section>
-     
    </section>
 </div>
-
-
    <section>
       <div className="parallax-four">
         <h2>Arts & Culture</h2>
@@ -74,10 +57,6 @@ export default class About extends Component {
     <section>
   </section>
     </div>
-
-
-
-
    <section>
       <div className="parallax-five">
         <h2>Sports and Entertainment</h2>
@@ -88,11 +67,7 @@ export default class About extends Component {
     <p className="header3">Hey, Batter Batter</p>
     <p>Home of the first professional baseball team, the Cincinnati Reds, as well as the Bengals professional football and FC Cincinnati soccer, in addition to our numerous college teams, Cincinnati is ideal for the sports lover.</p>
   </div>
- 
   </section>
- 
-
-
     <section>
       <div className="parallax-six">
         <h2>Wander & Wonder</h2>
@@ -104,11 +79,6 @@ export default class About extends Component {
       <p>From its verdant hills and valleys to shining river, Cincinnati is a natural wonder. The city boasts of numerous public parks with extensive grounds and hiking trails, as well as the largest interconnected system of biking trails in the United States. Go on, adventure is out there.</p>
    </div>
    </section>
- 
-
-
-
-
    <section>
       <div className="parallax-seven">
         <h2>Cincinnati Is For Lovers</h2>
@@ -120,30 +90,15 @@ export default class About extends Component {
       <p>Make memories for a lifetime here in Cincinnati. With wedding venues to suit all tastes and scenic locations for photographs, Cincinnati is perfect for your dream wedding. Want to get away from it all with your special someone? Look no further than here.</p>
    </div>
    </section>
- 
-
-
-
-
-
-
-
-
-
-
   <section className="text"></section>
   <section id="hero">
     <div id="cincy1"></div>
     <div id="cincy2"></div>
   </section>
   <section className="text"></section>
-
 </div>
-
-        
         </div>
             </div>
         )
     }
 }
-

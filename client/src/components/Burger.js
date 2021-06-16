@@ -1,23 +1,19 @@
-
+import 'bootstrap/dist/css/bootstrap.min.css';
 import React from 'react';
 import "./burger.css"
-import { Link } from 'react-router-dom';
-
 const Burger = () => {
-
-  
 return (
 <div>
   <nav className="navbar navbar-expand-lg navbar-light bg-light fixed-top">
     <div className="container-fluid bg-light">
-      <a className="navbar-brand" href="# ">Cincy Travels</a>
+      <a className="navbar-brand" href="#">Cincy Travels</a>
       <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span className="navbar-toggler-icon" />
       </button>
       <div className="collapse navbar-collapse text-center navbar-nav-scroll" id="navbarSupportedContent">
         <ul className="navbar-nav mx-auto mb-2 mb-lg-0 bg-light">
           <li className="nav-item">
-            <a className="nav-link active" aria-current="page" href="/">Home</a>
+            <a className="nav-link active" aria-current="page" href="/home">Home</a>
           </li>
           <li className="nav-item">
             <a className="nav-link" href="/about">About</a>
@@ -29,10 +25,10 @@ return (
             <a className="nav-link" href="/add">Add Attractions</a>
           </li>
           <li className="nav-item">
-            <Link className="nav-link" path to="/attractions">View Attractions</Link>
+            <a className="nav-link" href="/attractions">View Attractions</a>
           </li>
           <li className="nav-item dropdown">
-            <a className="nav-link dropdown-toggle" href="# " id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               Seasons
             </a>
             <ul className="dropdown-menu" aria-labelledby="navbarDropdown1">
@@ -43,7 +39,7 @@ return (
             </ul>
             </li>
             <li className="nav-item dropdown">
-            <a className="nav-link dropdown-toggle" href="# " id="navbarDropdown2" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               Destinations
             </a>
             <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -54,7 +50,7 @@ return (
             </ul>
             </li>
             <li className="nav-item dropdown">
-            <a className="nav-link dropdown-toggle" href="# " id="navbarDropdown3" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown3" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               Experiences
             </a>
             <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
