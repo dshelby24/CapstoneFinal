@@ -1,6 +1,6 @@
 //import './App.css';
 import React, { Component } from 'react';
-import Contact from './contact';
+import contact from './contact';
 import About from './About';
 import './App.css';
 // IMPORTS BELOW ARE FOR WEATHER APP 
@@ -30,7 +30,7 @@ class App extends Component {
 
         <Route exact path='/home' component={Home} />
         <Route exact path='/about' component={About} />
-        <Route exact path='/Contact' component ={contact} />
+        <Route exact path='/contact' component ={contact} />
         <Route exact path='/attractions' component ={Attractions} />        
         <Route exact path ='/add' component= {addAttract} />
         {/* <Route path = '/attractions/:id' component={SingleAttraction}/> */}
