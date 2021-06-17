@@ -6,14 +6,14 @@ return (
 <div>
   <nav className="navbar navbar-expand-lg navbar-light bg-light fixed-top">
     <div className="container-fluid bg-light">
-      <a className="navbar-brand">Cincy Travels</a>
+      <a className="navbar-brand" href="/#">Cincy Travels</a>
       <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span className="navbar-toggler-icon" />
       </button>
       <div className="collapse navbar-collapse text-center navbar-nav-scroll" id="navbarSupportedContent">
         <ul className="navbar-nav mx-auto mb-2 mb-lg-0 bg-light">
           <li className="nav-item">
-            <a className="nav-link active" aria-current="page" href="/home">Home</a>
+            <a className="nav-link active" aria-current="page" href="/home">Home</a>z
           </li>
           <li className="nav-item">
             <a className="nav-link" href="/about">About</a>
