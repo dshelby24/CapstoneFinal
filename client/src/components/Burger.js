@@ -14,7 +14,7 @@ return (
       <div className="collapse navbar-collapse text-center navbar-nav-scroll" id="navbarSupportedContent">
         <ul className="navbar-nav mx-auto mb-2 mb-lg-0 bg-light">
           <li className="nav-item">
-            <Link className="nav-link active" aria-current="page" to="/">Home</Link>
+            <Link className="nav-link active" aria-current="page" to="/home">Home</Link>
           </li>
           <li className="nav-item">
             <Link className="nav-link" to="/about">About</Link>
