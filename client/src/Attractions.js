@@ -64,7 +64,8 @@ export default class Attractions extends Component {
    <div className='jumbotron-fluid'>
                           <div className='headerz'>                   
   
-                        <h1 className='display-4'>Atrractions Around The Queen City</h1>  </div>
+                        <h1 className='display-4'>Atrractions Around The Queen City</h1>
+                        </div>
                         </div>
                         {this.attractionsList()}
                     </div>

@@ -99,7 +99,7 @@ class Home extends React.Component{
         <div className="card rounded-0 shadow-lg">
           <div className="card-body">
             <img src={NewPort} className="card-img border border-light rounded" alt=""/>
-            <p className="mt-4 p-3 card-text" id="para"  >NewPort Aquarium</p>
+            <p className="mt-4 p-3 card-text" id="para">NewPort Aquarium</p>
           </div>
         </div>
       </div>
@@ -109,7 +109,7 @@ class Home extends React.Component{
         <div className="card rounded-0 shadow-lg">
           <div className="card-body">
             <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTIfYH7e1-w6cahCMvPqgdBiec9sJMUBfd_0gby_-HhTVTTYsFW_SdB4k3wZllXrgUlGZwr6MzO7sKRsskeTnrbEQ" className="card-img border border-light rounded" alt=""/>
-            <p className="mt-4 p-3 card-text" id="para"  >Cincinnati Zoo & Botanical Garden</p>
+            <p className="mt-4 p-3 card-text" id="para">Cincinnati Zoo & Botanical Garden</p>
           </div>
         </div>
       </div>
@@ -119,7 +119,7 @@ class Home extends React.Component{
         <div className="card rounded-0 shadow-lg">
           <div className="card-body">
             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTKicqdGIHMk7fz3Y66TZwmhcKoBopxm0sogR9oqvwFVhJ4uA_e_EzBYQCudUCO1l-IJhqAEm_heP1FT-iNslvVg" className="card-img border border-light rounded" alt=""/>
-            <p className="mt-4 p-3 card-text" id="para"  >Cincinnati Art Museum </p>
+            <p className="mt-4 p-3 card-text" id="para">Cincinnati Art Museum </p>
           </div>
         </div>
       </div>
@@ -129,7 +129,7 @@ class Home extends React.Component{
         <div className="card rounded-0">
           <div className="card-body">
             <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcS3AaPhTZ3pKz0Pys10h09j1cdr0EkIFTYdyGxVO3THMYZhqD0AtGPv7iG8BUw96qqCtsEtnCvdpoLp-9BSivkXGw" className="card-img border border-light rounded" alt="" />
-            <p className="mt-4 p-3 card-text" id="para" >Cincinnati Museum</p>
+            <p className="mt-4 p-3 card-text" id="para">Cincinnati Museum</p>
           </div>
         </div>
       </div>

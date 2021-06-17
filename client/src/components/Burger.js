@@ -13,7 +13,7 @@ return (
       <div className="collapse navbar-collapse text-center navbar-nav-scroll" id="navbarSupportedContent">
         <ul className="navbar-nav mx-auto mb-2 mb-lg-0 bg-light">
           <li className="nav-item">
-            <a className="nav-link active" aria-current="page" href="/home">Home</a>z
+            <a className="nav-link active" aria-current="page" href="/home">Home</a>
           </li>
           <li className="nav-item">
             <a className="nav-link" href="/about">About</a>

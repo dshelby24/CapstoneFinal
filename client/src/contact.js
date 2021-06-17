@@ -150,17 +150,16 @@ import {BACKEND_URL} from './config';
                required
                className='form-controls'
                value={this.state.phone}
-               onChange={this.onChangePhoneNumber}
-              />
+               onChange={this.onChangePhoneNumber}/>
     </div>
     
              <div className="form-group">
-           
              <input type='submit' value="Sumbit" className="btn-add" />        
 
             </div>
 </div>
-</div>            </div>
+</div>           
+ </div>
           </form> 
            </div> 
             </div>
