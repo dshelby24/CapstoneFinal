@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './footer.css'
 // import github from './assets/assets/githubicon.png';
@@ -26,13 +25,13 @@ class Footer extends React.Component
       <a className="nav-link active" aria-current="page" href="/home">Home</a>
       </ul>
         <ul className="nav-item">
-              <Link className="nav-link" href="/about">About</Link>
+              <a className="nav-link" href="/about">About</a>
         </ul>
         <ul className="nav-item">
-              <Link className="nav-link" href="/contact">Contact</Link>
+              <a className="nav-link" href="/contact">Contact</a>
         </ul>
         <ul className="nav-item">
-              <Link className="nav-link" href="/add">Add Attractions</Link>
+              <a className="nav-link" href="/add">Add Attractions</a>
         </ul>
       </div>
       <div className="dropdown-container">
