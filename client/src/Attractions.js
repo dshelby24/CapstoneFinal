@@ -3,7 +3,6 @@ import axios from 'axios';
 import {BACKEND_URL} from './config'
 import './Viewattrac.css'
 
-
 const Attraction = (props) => {
     return (
         <div className='allAttractions'>
@@ -22,7 +21,6 @@ const Attraction = (props) => {
     )
 }
 
-     
  
 export default class Attractions extends Component {
     constructor(props) {
@@ -55,15 +53,10 @@ export default class Attractions extends Component {
         return (
             this.state.loading === false ? (
                 <div className='attractionsr'>
-           
                 <div className='attractionsContainer'>
-                         
-  
                     <div className='attractionsInnerContainer'>
-  
-   <div className='jumbotron-fluid'>
-                          <div className='headerz'>                   
-  
+                          <div className='jumbotron-fluid'>
+                          <div className='headerz'>                  
                         <h1 className='display-4'>Atrractions Around The Queen City</h1>
                         </div>
                         </div>

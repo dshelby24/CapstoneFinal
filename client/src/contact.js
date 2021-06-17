@@ -78,7 +78,7 @@ import {BACKEND_URL} from './config';
     console.log(contact)
     axios.post(BACKEND_URL + 'contact/add', contact)
     .then(res=>console.log(res.data));
-    this.props.history.push('/home');
+    this.props.history.push('/');
 
   
     this.setState({
@@ -99,11 +99,11 @@ import {BACKEND_URL} from './config';
       <div>
       <div className="body3">
       <form id='contact-form' onSubmit={this.onSubmit}>
-      <div className="titlecontact">
-          {/* <h3 className='text-center'>Let's Chat!</h3>
-          <h4>Leave us a message below</h4> */}
+    {/* <div className="titlecontact">
+   <h3 className='text-center'>Let's Chat!</h3>
+          <h4>Leave us a message below</h4> 
 
-</div>
+</div> */}
           <div className="containerContact">
           <div class="container">
   <div class="row header">
@@ -175,5 +175,5 @@ import {BACKEND_URL} from './config';
 
 
 
-export default  (Contact); 
+export default Contact; 
 
